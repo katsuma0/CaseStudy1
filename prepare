@@ -1,0 +1,39 @@
+/* Combines all 12 tables into a singular table */
+
+CREATE TABLE cyclistic_data.trip2022 AS
+
+SELECT *
+FROM cyclistic_data.jan2022
+UNION ALL
+SELECT *
+FROM cyclistic_data.feb2022
+UNION ALL
+SELECT *
+FROM cyclistic_data.march2022
+UNION ALL
+SELECT *
+FROM cyclistic_data.april2022
+UNION ALL
+SELECT *
+FROM cyclistic_data.may2022
+UNION ALL
+SELECT *
+FROM cyclistic_data.june2022
+UNION ALL
+SELECT *
+FROM cyclistic_data.july2022
+UNION ALL
+SELECT *
+FROM cyclistic_data.aug2022
+UNION ALL
+SELECT *
+FROM cyclistic_data.sept2022
+UNION ALL
+SELECT *
+FROM cyclistic_data.oct2022
+UNION ALL
+SELECT *
+FROM cyclistic_data.nov2022
+UNION ALL
+SELECT *
+FROM cyclistic_data.dec2022
